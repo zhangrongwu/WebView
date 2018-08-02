@@ -9,5 +9,16 @@
 #import "JSObjectManager.h"
 
 @implementation JSObjectManager
+- (void)test {
+    NSLog(@"调用成功");
+}
+
+- (void)testFunction:(id)param {
+    NSLog(@"调用成功， 参数： %@", param);
+}
+
+- (void)testFunctionWith:(id)param1 :(id)param2 :(id)param3 {
+    NSLog(@"%@ - %@ - %@", param1, param2, param3);
+}
 
 @end

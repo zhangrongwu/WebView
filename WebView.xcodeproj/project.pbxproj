@@ -15,6 +15,7 @@
 		425838872112D53700703D80 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 425838862112D53700703D80 /* main.m */; };
 		425838912112D53700703D80 /* WebViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 425838902112D53700703D80 /* WebViewTests.m */; };
 		4258389C2112D53700703D80 /* WebViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4258389B2112D53700703D80 /* WebViewUITests.m */; };
+		425838AB2112D6AF00703D80 /* JSObjectManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 425838AA2112D6AF00703D80 /* JSObjectManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,9 @@
 		425838972112D53700703D80 /* WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4258389B2112D53700703D80 /* WebViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WebViewUITests.m; sourceTree = "<group>"; };
 		4258389D2112D53700703D80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425838A92112D6AF00703D80 /* JSObjectManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSObjectManager.h; sourceTree = "<group>"; };
+		425838AA2112D6AF00703D80 /* JSObjectManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSObjectManager.m; sourceTree = "<group>"; };
+		425838AC2112D6D700703D80 /* JSObjectProtocol.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSObjectProtocol.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,9 @@
 				425838782112D53600703D80 /* AppDelegate.m */,
 				4258387A2112D53600703D80 /* ViewController.h */,
 				4258387B2112D53600703D80 /* ViewController.m */,
+				425838A92112D6AF00703D80 /* JSObjectManager.h */,
+				425838AA2112D6AF00703D80 /* JSObjectManager.m */,
+				425838AC2112D6D700703D80 /* JSObjectProtocol.h */,
 				4258387D2112D53600703D80 /* Main.storyboard */,
 				425838802112D53700703D80 /* Assets.xcassets */,
 				425838822112D53700703D80 /* LaunchScreen.storyboard */,
@@ -265,6 +272,7 @@
 				4258387C2112D53600703D80 /* ViewController.m in Sources */,
 				425838872112D53700703D80 /* main.m in Sources */,
 				425838792112D53600703D80 /* AppDelegate.m in Sources */,
+				425838AB2112D6AF00703D80 /* JSObjectManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

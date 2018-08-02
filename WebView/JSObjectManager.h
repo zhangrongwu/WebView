@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
-@interface JSObjectManager : NSObject
+#import "JSObjectProtocol.h"
+@interface JSObjectManager : NSObject <JSObjectProtocol>
 
 @end
